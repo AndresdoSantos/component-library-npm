@@ -13,11 +13,11 @@
     "format": "prettier --write src//**/*.{ts,tsx,css} --config ./.prettierrc"
   },
   "dependencies": {
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
+    "react-dom": "16.8.0 || >=17.x",
     "vite-plugin-dts": "^1.7.1",
     "vite-plugin-linter": "^2.0.0",
-    "vite-tsconfig-paths": "^4.0.2"
+    "vite-tsconfig-paths": "^4.0.2",
+    "react": "16.8.0 || >=17.x"
   },
   "husky": {
     "hooks": {
